@@ -1,0 +1,23 @@
+.list__container {
+    width: 350px;
+    max-height: 400px;
+    height: auto;
+    overflow-y: scroll;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.321);
+}
+
+.todo__text {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.696);
+    border-radius: 15px 15px 2px 2px;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(53, 27, 91);
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
